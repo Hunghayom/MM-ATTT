@@ -1,0 +1,38 @@
+=== ECC (ECIES-like hybrid) encryption output ===
+
+Plaintext (input):
+TAVIETHUNG22028027
+
+---- Recipient public key components ----
+public_x_hex: 0x16779ebe78b6122c10f40647919c2ec50f4158e426db902cc72f0ef9bf22bc334fda24c8d6ca0ecbf851d9df3b8b070976e26e5310215896f8b51c558b260c14a20
+public_y_hex: 0x179ff56d4e0c44ce34cdb8ea71daedfb3c2d1ea28e5cf70135f748487b46d168ce1cb6223f77c30ccbf75e5747d5b1bd954c6293f61387f5ce0450e7ce564163dbc
+public_pem:
+-----BEGIN PUBLIC KEY-----
+MIGbMBAGByqGSM49AgEGBSuBBAAjA4GGAAQBZ3nr54thIsEPQGR5GcLsUPQVjkJt
+uQLMcvDvm/IrwzT9okyNbKDsv4UdnfO4sHCXbiblMQIViW+LUcVYsmDBSiABef9W
+1ODETONM246nHa7fs8LR6ijlz3ATX3SEh7RtFozhy2Ij93wwzL915XR9WxvZVMYp
+P2E4f1zgRQ585WQWPbw=
+-----END PUBLIC KEY-----
+
+---- Recipient private key components ----
+private_scalar_hex: 0xcdd3d80f45c1b7d6c3d0b834af87d8c0ee3cb60238be51f9eac79d4301ec5cfed8830bb6a76c715e3599862d3b45e73a7a6ad7062682dfc5128885b5c7c109da21
+private_pem:
+-----BEGIN PRIVATE KEY-----
+MIHuAgEAMBAGByqGSM49AgEGBSuBBAAjBIHWMIHTAgEBBEIAzdPYD0XBt9bD0Lg0
+r4fYwO48tgI4vlH56sedQwHsXP7Ygwu2p2xxXjWZhi07Rec6emrXBiaC38USiIW1
+x8EJ2iGhgYkDgYYABAFneevni2EiwQ9AZHkZwuxQ9BWOQm25Asxy8O+b8ivDNP2i
+TI1soOy/hR2d87iwcJduJuUxAhWJb4tRxViyYMFKIAF5/1bU4MRM40zbjqcdrt+z
+wtHqKOXPcBNfdISHtG0WjOHLYiP3fDDMv3XldH1bG9lUxik/YTh/XOBFDnzlZBY9
+vA==
+-----END PRIVATE KEY-----
+
+---- Encryption material ----
+ephemeral_public (compressed, base64): AwE0DeYceCGTGlV59UR86hIhnV3dW+uCi6pGVjgo1nhrBjQBiXXuTqjua2mRZE3GknD3T7ZFpaL0fC3WdZgB0f9kBA==
+nonce (base64): oS8S8ekkkNYZnECx
+ciphertext||tag (base64): WKvio3dushW+gj/6XIiSF65t/p/pNXjNMoj0VGsEt3yK5A==
+
+---- Ciphertext (readable) ----
+ciphertext_hex: 58abe2a3776eb215be823ffa5c889217ae6dfe9fe93578cd3288f4546b04b77c8ae4
+
+---- Decrypted output ----
+TAVIETHUNG22028027
