@@ -1,9 +1,6 @@
 ECDSA (ECC) Signature Report
 Generated at (UTC): 2025-11-02T15:47:46.130442
 
-Assumption: using curve secp521r1 (P-521) to approximate RSA-2048 security
-
-curve: secp521r1
 
 ---- Private key component ----
 private scalar d (decimal):
@@ -61,4 +58,5 @@ s (hex): f9221b542a8fed66c923f6e8ec4efaca47988626b5ef9860689703e490d4963a3dea222
 Signature valid: True
 
 ---- Notes ----
+
 Hash used for signature: SHA-512 (suitable for P-521)
