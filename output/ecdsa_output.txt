@@ -3,10 +3,10 @@ Generated at (UTC): 2025-11-02T15:47:46.130442
 
 
 ---- Private key component ----
-private scalar d (decimal):
+private scalar d:
 189067182710590561300858741484371058699033588374480361060905060034395473844963085709049947207162437820628825085387059149081799126443585930255612571151498409
 
-private scalar d (hex):
+private scalar d:
 0e19ed23796723503772a050dca7b0bf624ef10ba639ad7a47ed2f52907622ff27f4209f6324b6d0ebbe6d0dc69ba240064a1bb8776e912041f438595ed783fca9
 
 private key (PEM):
@@ -60,3 +60,4 @@ Signature valid: True
 ---- Notes ----
 
 Hash used for signature: SHA-512 (suitable for P-521)
+
